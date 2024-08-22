@@ -30,7 +30,7 @@
 </head>
 
 <body class="manrope">
-    <header class="container mx-auto">
+    <header class="container mx-auto p-5">
         <nav class="flex justify-between">
             <div class="flex gap-4">
               <div>
@@ -38,7 +38,7 @@
                 class="bg-lime-400 text-white px-1 rounded-full -rotate-45"><i class="fa-solid fa-arrow-right"></i>
             </p>
               </div>
-                <p>Rinterio</p>
+                <p class="text-3xl font-bold">Rinterio</p>
 
             </div>
 
@@ -71,9 +71,9 @@
             </div>
 
             <div class="text-center">
-                <h1 class="text-4xl font-bold">A barn house of this design has a <br>striking appearance </h1>
-                <p class="opacity-50"> This hous is more beautiful.</p>
-                <button>View Details </button>
+                <h1 class="text-4xl font-bold mb-5">A barn house of this design has a <br>striking appearance </h1>
+                <p class="opacity-50"> This house is more beautiful.</p>
+                <button class="font-bold bg-lime-200 p-3 rounded-xl mt-5">View Details </button>
             </div>
         </div>
     </header>
@@ -173,11 +173,71 @@
             </div>
 
         </section>
+            
 
 
-        <!-- do not work section  -->
-        <section>
+      
+        <section class="my-5"> <!-- Challenging section  -->
+           
+          
+              <div>
 
+                <div class="text-center space-y-5">
+                    <button class="bg-lime-100 p-1"><i class="fa-solid fa-arrow-right"></i>Explore our latest Work</button>
+                    <h1 class="text-3xl font-bold">Our Latest Portfolio</h1>
+                    <p>The barn house captivates with .</p>
+                </div> 
+      
+       <!-- img  -->
+        <div class="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-6">  
+
+            <div class="flex gap-5 border p-3">
+                <div>
+                   <img src="assets/img1.png" alt="">
+                </div>
+                <div class="space-y-5">
+                    <h3>Commercial</h3>
+                    <p>This projects advice us commercial</p>
+                    
+            <button class="flex font-bold gap-4">View Details <p
+                class="bg-lime-400 text-black px-1 rounded-full -rotate-45"><i class="fa-solid fa-arrow-right"></i>
+            </p></button>
+                </div>
+            </div>
+
+                 <div class="border p-3 flex justify-center ">
+                    <img src="assets/img2.png" alt="">
+                 </div>
+
+
+             
+
+          </div>
+          <div class="grid lg:grid-cols-3 lg:col-span-3 gap-5 my-5">
+            <div class="border p-3 flex justify-center ">
+                <img src="assets/img3.png" alt="">
+             </div>
+
+             
+        <div class="flex gap-5 border p-3">
+            <div>
+               <img src="assets/img4.png" alt="">
+            </div>
+            <div class="space-y-5">
+                <h3>Commercial</h3>
+                <p>This projects advice us commercial</p>
+                
+        <button class="flex font-bold gap-4">View Details <p
+            class="bg-lime-400 text-black px-1 rounded-full -rotate-45"><i class="fa-solid fa-arrow-right"></i>
+        </p></button>
+            </div>
+        </div>
+        <div class="border p-3 flex justify-center ">
+            <img src="assets/img5.png" alt="">
+        </div>
+         </div>
+
+              </div>
         </section>
 
 
@@ -202,7 +262,7 @@
                     </div>
                     <div>
                         <input class="h-14 w-64 rounded-3xl px-5 m-5" type="text" placeholder="Phone Number"> <input
-                            class="h-14 w-64 rounded-3xl p-5" type="text" placeholder="Email Number">
+                            class="h-14 w-64 rounded-3xl mb-5 p-5" type="text" placeholder="Email Number">
 
                     </div>
                     <div>
@@ -210,8 +270,8 @@
                             placeholder="White your message here"></textarea>
                     </div>
                     <div>
-                        <button class="w-full h-10 bg-lime-400 rounded-3xl font-bold text-xl">Send Email</button>
-                    </div>
+                        <button class="w-full h-10 bg-lime-400 rounded-3xl font-bold gap-3 text-xl p-1 flex justify-center">Send Email <p  class="bg-black space-x-2 text-white px-1 rounded-full -rotate-45"> <i class="fa-solid fa-arrow-right"></i> </p> </button>
+                        </div>
                 </div>
 
 
@@ -221,14 +281,14 @@
         </section>
     </main>
 
-    <footer class="footer footer-center bg-black text-white rounded p-10">
+    <footer class="footer  footer-center bg-black text-white rounded p-10">
 
         <div class="flex">
             <p class="bg-lime-500 px-1 rounded-full -rotate-45"><i class="fa-solid fa-arrow-right"></i> </p>
             <p class="text-3xl">Rinterio</p>
         </div>
         <p class="text-gray-400">This is footer </p>
-        <nav class="text-gray-300 grid grid-flow-col gap-8">
+        <nav class=" text-gray-300 grid grid-cols-1 lg:grid-cols-5  gap-8">
             <a class="link link-hover">Home</a>
             <a class="link link-hover">Service</a>
             <a class="link link-hover">Portfolio</a>
