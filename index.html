@@ -17,8 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
-    <!-- css  -->
-    <link rel="stylesheet" href="styles/styles.css">
+
 
     <style>
         .manrope {
@@ -30,59 +29,123 @@
 </head>
 
 <body class="manrope">
-    <header class="container mx-auto p-5">
-        <nav class="flex justify-between">
-            
-            <div class="flex gap-4">
-              <div>
-                <p
-                class="bg-lime-400 text-white px-1 rounded-full -rotate-45"><i class="fa-solid fa-arrow-right"></i>
-            </p>
-              </div>
+    <header>
+        <!-- <nav class="container mx-auto">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start gap-3">
+
+                    <p class="bg-lime-400 text-black px-1 rounded-full -rotate-45"><i
+                            class="fa-solid fa-arrow-right"></i>
+                    </p> <a class="text-2xl font-bold"> Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal  px-1">
+                        <li class="font-bold"><a href="">Home</a></li>
+
+                        <li class="text-gray-400"><a href="">Service</a></li>
+
+                        <li class="text-gray-400"><a href="">Portfolio</a></li>
+
+                        <li class="text-gray-400"><a href="">Blogs</a></li>
+
+                        <li class="text-gray-400"><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="">
+                    <div ga>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+                <div class="flex gap-2 bg-lime-400 p-3 rounded-2xl">
+                    <a class=" ">Book Consult <p class="bg-black text-white px-1 rounded-full -rotate-45"><i
+                                class="fa-solid fa-arrow-right"></i> </a>
+
+                </div>
+                </p>
+
+            </div>
+            <div class="dropdown relative">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3  p-2 shadow absolute right-0">
+                    <li class="font-bold"><a href="">Home</a></li>
+
+                    <li class="text-gray-400"><a href="">Service</a></li>
+
+                    <li class="text-gray-400"><a href="">Portfolio</a></li>
+
+                    <li class="text-gray-400"><a href="">Blogs</a></li>
+
+                    <li class="text-gray-400"><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            </div>
+            </nav> -->
+        <nav class="container mx-auto flex justify-between">
+            <div class="flex items-center gap-4">
+                <div>
+                    <p class="bg-lime-400 text-white px-1 rounded-full -rotate-45"><i
+                            class="fa-solid fa-arrow-right"></i>
+                    </p>
+                </div>
                 <p class="text-3xl font-bold">Rinterio</p>
 
             </div>
-           
-            <ul class="flex gap-4 max-sm:hidden  ">
-              
-             
 
-               
-                <li class="font-bold"><a href="">Home</a></li>
+            <div>
+                <ul class="flex text-center gap-4 max-lg:invisible  ">
 
-                <li class="text-gray-400"><a href="">Service</a></li>
 
-                <li class="text-gray-400"><a href="">Portfolio</a></li>
 
-                <li class="text-gray-400"><a href="">Blogs</a></li>
 
-                <li class="text-gray-400"><a href="">Contact Us</a></li>
+                    <li class="font-bold"><a href="">Home</a></li>
 
-            </ul>
+                    <li class="text-gray-400"><a href="">Service</a></li>
 
-            <div class=" flex items-center space-x-3 max-sm:hidden ">
+                    <li class="text-gray-400"><a href="">Portfolio</a></li>
+
+                    <li class="text-gray-400"><a href="">Blogs</a></li>
+
+                    <li class="text-gray-400"><a href="">Contact Us</a></li>
+
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars visible md:invisible  mx-lg:invisible"></i>
+            <div class=" flex items-center space-x-3  ">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <i class="fa-solid fa-cart-shopping"></i>
                 <button class="flex bg-lime-400 text-black p-2 rounded-2xl gap-4"> Book Consult <p
-                    class="bg-black text-white px-1 rounded-full -rotate-45"><i class="fa-solid fa-arrow-right"></i>
-                    
-                </p>
-            </button>
-               
-            </div>
-        </nav>
-        <!-- banner  -->
-        <div class="w-full">
-            <div class="flex items-center justify-center">
-                <img src="assets/banner.png" alt="">
+                        class="bg-black text-white px-1 rounded-full -rotate-45"><i class="fa-solid fa-arrow-right"></i>
+
+                    </p>
+                </button>
+
+
             </div>
 
-            <div class="text-center">
-                <h1 class="text-4xl font-bold mb-5">A barn house of this design has a <br>striking appearance </h1>
-                <p class="opacity-50"> This house is more beautiful.</p>
-                <button class="font-bold bg-lime-200 p-3 rounded-xl mt-5">View Details </button>
+        </nav>
+        <!-- banner  -->
+        <section class="container mx-auto">
+            <div class="w-full">
+                <div class="flex items-center justify-center">
+                    <img src="assets/banner.png" alt="">
+                </div>
+
+                <div class="text-center">
+                    <h1 class="text-4xl font-bold mb-5">A barn house of this design has a <br>striking appearance
+                    </h1>
+                    <p class="opacity-50"> This house is more beautiful.</p>
+                    <button class="font-bold bg-lime-200 p-3 rounded-xl mt-5">View Details </button>
+                </div>
             </div>
-        </div>
+        </section>
     </header>
 
     <!-- main  -->
@@ -96,10 +159,9 @@
 
                 <div class="text-center">
                     <button class="bg-white rounded-2xl p-2 mt-8 mb-4"><i class="fa-solid fa-arrow-right"></i> About Us
-                        </button>
+                    </button>
                     <h1 class="text-4xl font-bold mb-4">We design thoughtful, <br> liveable spaces</h1>
-                    <p class="opacity-50">The barn house captivates with its blend of rustic charm and
-                        modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    <p class="opacity-50">This is about  first container section. </p>
 
                     <div class="flex border bg-white mt-10 rounded-lg  p-5">
 
@@ -107,7 +169,7 @@
 
                         <div class="ml-5">
                             <h1 class="font-bold">Commercial</h1>
-                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                            <p>commercial box Number one.</p>
                         </div>
 
                     </div>
@@ -118,7 +180,7 @@
                         <div class="ml-5">
                             <h1 class="font-bold">Commercial</h1>
 
-                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                            <p>commercial boc Number two.</p>
                         </div>
 
                     </div>
@@ -131,7 +193,7 @@
 
                 <!-- img div  -->
                 <div>
-                    <img src="assets/Rectangle.png" alt="">
+                    <img class="w-full" src="assets/Rectangle.png" alt="">
                 </div>
 
 
@@ -158,112 +220,131 @@
                     <div class="bg-purple-200 p-5 rounded-xl">
                         <img src="assets/concept.png" alt="">
                         <h3 class="text-xl font-bold">concept</h3>
-                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        <p>This is concept box</p>
                     </div>
                     <div class="bg-yellow-300 rounded-xl  p-5">
                         <img src="assets/flow-chart.png" alt="">
                         <h3 class="text-xl font-bold">Design Process</h3>
-                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        <p>This is design box.</p>
                     </div>
                     <div class="bg-teal-200 rounded-xl  p-5">
                         <img src="assets/vision.png" alt="">
                         <h3 class="text-xl font-bold">Supervision</h3>
-                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        <p>This is Supervision box.</p>
                     </div>
                     <div class="bg-sky-300 rounded-xl  p-5">
                         <img src="assets/budget-planning.png" alt="">
                         <h3 class="text-xl font-bold">Budget Planing</h3>
-                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        <p>This is budget planing box.</p>
                     </div>
 
                 </div>
             </div>
 
         </section>
-            
 
 
-      
+
+
         <section class="my-5"> <!-- Challenging section  -->
-           
-          
-              <div>
+
+
+            <div>
 
                 <div class="text-center space-y-5">
-                    <button class="bg-lime-100 p-1"><i class="fa-solid fa-arrow-right"></i>Explore our latest Work</button>
+                    <button class="bg-lime-100  rounded-xl  p-2"><i class="fa-solid fa-arrow-right"></i>Explore our
+                        latest Work</button>
                     <h1 class="text-3xl font-bold">Our Latest Portfolio</h1>
                     <p>The barn house captivates with .</p>
-                </div> 
-      
-       <!-- img  -->
-        <div class="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-6">  
-
-            <div class="flex gap-5 border rounded-2xl p-3">
-                <div>
-                   <img src="assets/img1.png" alt="">
                 </div>
-                <div class="space-y-5">
-                    <h3>Commercial</h3>
-                    <p>This projects advice us commercial</p>
-                    
-            <button class="flex font-bold gap-4">View Details <p
-                class="bg-lime-400 text-black px-1 rounded-full -rotate-45"><i class="fa-solid fa-arrow-right"></i>
-            </p></button>
+
+                <!-- img  -->
+                <div class="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+                    <div class=" flex flex-col items-center md:flex-row  gap-5 border rounded-2xl p-3">
+                        <div>
+                            <img src="assets/img1.png" alt="">
+                        </div>
+                        <div class="space-y-5">
+                            <h3>Commercial</h3>
+                            <p>This projects advice us commercial</p>
+
+                            <button class="flex font-bold gap-4">View Details <p
+                                    class="bg-lime-400 text-black px-1 rounded-full -rotate-45"><i
+                                        class="fa-solid fa-arrow-right"></i>
+                                </p></button>
+                        </div>
+                    </div>
+
+                    <div class="border p-3 flex justify-center rounded-2xl ">
+                        <img src="assets/img2.png" alt="">
+                    </div>
+
+
+
+
+                </div>
+                <div class="grid lg:grid-cols-3 lg:col-span-3 gap-5 my-5">
+                    <div class="border p-3 flex justify-center rounded-2xl ">
+                        <img src="assets/img3.png" alt="">
+                    </div>
+
+
+                    <div class="flex flex-col items-center gri gap-5 border rounded-2xl p-3">
+                        <div>
+                            <img src="assets/img4.png" alt="">
+                        </div>
+                        <div class=" space-y-5">
+                            <h3>Commercial</h3>
+                            <p>This projects advice us commercial</p>
+
+                            <button class="flex font-bold gap-4">View Details <p
+                                    class="bg-lime-400 text-black px-1 rounded-full -rotate-45"><i
+                                        class="fa-solid fa-arrow-right"></i>
+                                </p></button>
+                        </div>
+                    </div>
+                    <div class="border p-3 flex justify-center rounded-2xl ">
+                        <img src="assets/img5.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Challenging section  -->
+        <section>
+            <div class="hero min-h-screen  " style="background-image: url(assets/article1.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-neutral-content text-center">
+                    <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">Hello Everyone</h1>
+                        <p class="mb-5">
+                           This house is more beautiful than other house.I's not a building made od bricks and cement; it's a place where prescious moments are woven.
+                        </p>
+                        <button class="btn btn-accent">Get Started</button>
+                    </div>
                 </div>
             </div>
-
-                 <div class="border p-3 flex justify-center rounded-2xl ">
-                    <img src="assets/img2.png" alt="">
-                 </div>
-
-
-             
-
-          </div>
-          <div class="grid lg:grid-cols-3 lg:col-span-3 gap-5 my-5">
-            <div class="border p-3 flex justify-center rounded-2xl ">
-                <img src="assets/img3.png" alt="">
-             </div>
-
-             
-        <div class="flex gap-5 border rounded-2xl p-3">
-            <div>
-               <img src="assets/img4.png" alt="">
-            </div>
-            <div class="space-y-5">
-                <h3>Commercial</h3>
-                <p>This projects advice us commercial</p>
-                
-        <button class="flex font-bold gap-4">View Details <p
-            class="bg-lime-400 text-black px-1 rounded-full -rotate-45"><i class="fa-solid fa-arrow-right"></i>
-        </p></button>
-            </div>
-        </div>
-        <div class="border p-3 flex justify-center rounded-2xl ">
-            <img src="assets/img5.png" alt="">
-        </div>
-         </div>
-
-              </div>
         </section>
 
 
         <!-- last section  -->
-        <section class="image mt-10 p-8">
+        <section class="hero min-h-screen mt-10 " style="background-image: url(assets/bg.jpg);">
 
             <div class="text-center">
                 <div>
                     <div>
-                        <button class="bg-lime-100 p-1"><i class="fa-solid fa-arrow-right"></i> Let's Connect</button>
+                        <button class="bg-lime-100 rounded-xl p-2"><i class="fa-solid fa-arrow-right"></i> Let's
+                            Connect</button>
                         <h1 class="text-3xl font-bold">Let's Discuss Next Project</h1>
-                        <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring
-                            weathered wood, sleek metal accents.</p>
+                        <p>This section tell us our some information.</p>
                     </div>
                 </div>
 
                 <!-- inp div  -->
                 <div>
-                    <div class="border ">
+                    <div>
                         <input class="h-14 w-64 rounded-3xl px-5 m-5" type="text" placeholder="First Name"> <input
                             class="h-14 w-64 rounded-3xl p-5" type="text" placeholder="Last Name">
                     </div>
@@ -277,8 +358,11 @@
                             placeholder="White your message here"></textarea>
                     </div>
                     <div>
-                        <button class="w-full h-10 bg-lime-400 rounded-3xl font-bold gap-3 text-xl p-1 flex justify-center">Send Email <p  class="bg-black space-x-2 text-white px-1 rounded-full -rotate-45"> <i class="fa-solid fa-arrow-right"></i> </p> </button>
-                        </div>
+                        <button
+                            class="w-full h-10 bg-lime-400 rounded-3xl font-bold gap-3 text-xl p-1 flex justify-center">Send
+                            Email <p class="bg-black space-x-2 text-white px-1 rounded-full -rotate-45"> <i
+                                    class="fa-solid fa-arrow-right"></i> </p> </button>
+                    </div>
                 </div>
 
 
@@ -294,7 +378,7 @@
             <p class="bg-lime-500 px-1 rounded-full -rotate-45"><i class="fa-solid fa-arrow-right"></i> </p>
             <p class="text-3xl">Rinterio</p>
         </div>
-        <p class="text-gray-400">This is footer </p>
+        <p class="text-gray-300">This is footer description. </p>
         <nav class=" text-gray-300 grid grid-cols-1 lg:grid-cols-5  gap-8">
             <a class="link link-hover">Home</a>
             <a class="link link-hover">Service</a>
